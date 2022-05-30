@@ -22,9 +22,13 @@ class Animal {
     }
 }
 
-const objAnimal1 = new Animal ('Elephant', 45.6)
+const objAnimal1 = new Animal ()
+objAnimal1.setName('Elephant')
+objAnimal1.setWeight(45.6)
 objAnimal1.toString()
 
-const objAnimal2 = new Animal ('Mouse', 20)
+const objAnimal2 = new Animal ()
+objAnimal1.setName('Mouse')
+objAnimal1.setWeight(20)
 objAnimal1.toString()
 
